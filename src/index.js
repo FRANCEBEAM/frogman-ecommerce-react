@@ -4,6 +4,8 @@ import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
+  Router,
+  Link,
   Outlet,
 } from "react-router-dom";
 
@@ -13,26 +15,34 @@ import GraphicNov from './pages/GraphicNov';
 import Shop from './pages/Shop';
 import GameInfo from './pages/GameInfo';
 
+const AppLayout = () => {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  )
+}
+
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: [<Navbar />, <Home />, <Outlet />],
+    element: <AppLayout />,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/graphicnovels",
-        element: <GraphicNov />
+        path: "graphicnovels",
+        element: <GraphicNov />,
       },
       {
-        path: "/shop",
-        element: <Shop />
+        path: "shop",
+        element: <Shop />,
       },
       {
-        path: "/gameinfo",
-        element: <GameInfo />
+        path: "gameinfo",
+        element: <GameInfo />,
       },
     ],
   },
