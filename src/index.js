@@ -15,10 +15,11 @@ import GameInfo from './pages/GameInfo';
 
 const router = createBrowserRouter([
   {
-    element: [<Navbar />, <Outlet />],
+    path: "/",
+    element: [<Navbar />, <Home />, <Outlet />],
     children: [
       {
-        path: "/",
+        path: "/home",
         element: <Home />,
       },
       {
