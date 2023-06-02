@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import GraphicNov from './pages/GraphicNov';
 import Shop from './pages/Shop';
+import GameInfo from './pages/GameInfo';
 
 const router = createBrowserRouter([
   {
@@ -26,9 +27,13 @@ const router = createBrowserRouter([
         element: <GraphicNov />
       },
       {
-        path: "gearshop",
+        path: "shop",
         element: <Shop />
-      }
+      },
+      {
+        path: "gameinfo",
+        element: <GameInfo />
+      },
     ],
   },
 ]);

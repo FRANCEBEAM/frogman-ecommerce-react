@@ -9,9 +9,9 @@ const Apparels = () => {
   const sliderRef = useRef(null);
   
   return (
-    <div className='w-full h-full bg-[#000000] p-4'>
+    <div className='w-full h-full inline-block bg-[#000000] p-4 py-20 relative'>
         <div className='w-full h-full block mg-auto lg:max-w-[1200px] lg:m-auto'>
-            <div className='py-5 uppercase'>
+            <div className='py-1 uppercase'>
                 <h1 className='text-4xl text-white font-bold'>Cold Harbor Special Objects Group Apparel</h1>
                 <p className='text-2xl text-white'>Apparel & Shirts</p>
             </div>
@@ -29,7 +29,6 @@ const Apparels = () => {
                 size={40} 
                 onClick={() => handleScrollRight(sliderRef)} />
             </div>
-            
         </div>
     </div>
   )

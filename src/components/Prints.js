@@ -10,12 +10,10 @@ const Prints = () => {
 
   return (
     <>
-     <div className='w-full h-[1230px] sm:h-[1000px] absolute bg-[#000000]/80'></div>
-        <img className='w-full h-[1230px] sm:h-[1000px] object-cover' src="../assets/bg-1.jpg" alt="Limited Edition"/>
+      <img className='w-full h-[1210px] sm:h-[960px] absolute opacity-30 object-cover' src="../assets/bg-1.jpg" alt="Limited Edition"/>
 
-
-      <div className='w-full lg:max-w-[1200px] lg:m-auto'>
-        <div className='w-full absolute top-[660px] m-auto p-4 lg:max-w-[1200px] lg:m-auto'>
+      <div className='w-full h-full relative pt-6 lg:m-auto z-10'>
+        <div className='w-full h-full m-auto min-h-screen p-4 self-center lg:text-left lg:max-w-[1200px] lg:m-auto lg:justify-start'>
 
             <div className='text-white w-full uppercase lg:m-auto'>
               <h1 className='text-4xl uppercase font-bold lg:text-5xl'>Limited Edition Print</h1>
@@ -39,7 +37,6 @@ const Prints = () => {
                 size={40} 
                 onClick={()=>handleScrollRight(sliderRef)} />
             </div>
-
         </div>
       </div>
     </>

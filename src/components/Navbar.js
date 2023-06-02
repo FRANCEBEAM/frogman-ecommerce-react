@@ -31,12 +31,12 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='font-medium tracking-wider py-3 hover:text-red hover:bg-yellow cursor-pointer lg:hover:text-yellow lg:hover:bg-transparent lg:text-base '>
-                    <Link to='/gearshop'>
+                    <Link to='/shop'>
                         Shop
                     </Link>
                 </li>
                 <li className='font-medium tracking-wider py-3 hover:text-red hover:bg-yellow cursor-pointer lg:hover:text-yellow lg:hover:bg-transparent lg:text-base '>
-                    <Link to='/'>
+                    <Link to='/gameinfo'>
                         Game Info
                     </Link>
                 </li>

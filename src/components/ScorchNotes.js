@@ -4,12 +4,11 @@ import TroopsCard from './TroopsCard'
 const ScorchNotes = () => {
   return (
     <>
-      <div className='w-full h-[1000px] lg:h-[1100px] xl:h-[1000px]'>
-            <div className="w-full h-full">
-                <div className='absolute w-full h-[1000px] lg:h-[1100px] xl:h-[1000px] bg-gradient-to-l from-[#000000] bg-[#000000]/70'></div>
-                <img className="w-full h-full object-cover" src="../assets/novel2-bg.jpg" alt="" />
+      <div className='w-full h-full inline-block relative'>
+            <div className="w-full h-full block m-auto py-10 lg:m-auto">
+              <img className="w-full h-full object-cover bg-gradient-to-l absolute from-[#000000] bg-[#000000]/100 opacity-10 -z-10" src="../assets/novel2-bg.jpg" alt="Scorch Notes" />
 
-                <div className='p-4 absolute w-full top-[1310px] sm:top-[1390px] lg:top-[1330px] xl:top-[1200px]'>
+                <div className='p-4 w-full'>
                     <div className='w-full h-full lg:pt-20 lg:max-w-[1200px] lg:m-auto'>                 
                         <TroopsCard 
                             key={2}

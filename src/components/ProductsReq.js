@@ -12,14 +12,14 @@ export const PatchesMorale = [
         prod_img: '../assets/moralecat2.jpg',
         category: 'Morale Patches',
         prod_name: 'CT SCORCH CAT LOVE FOR SALE PATCH',
-        prod_price: 297
+        prod_price: 280
     },
     {
         id: 3,
         prod_img: '../assets/moralecat3.jpg',
         category: 'Morale Patches',
         prod_name: 'RANGER CAT BORN TO LOSE PATCH',
-        prod_price: 297
+        prod_price: 220
     },
     {
         id: 4,
@@ -32,28 +32,28 @@ export const PatchesMorale = [
         prod_img: '../assets/moralecat1.jpg',
         category: 'Morale Patches',
         prod_name: 'WARHEAD CAT BAD LUCK MORALE PATCH',
-        prod_price: 297
+        prod_price: 230
     },
     {
         id: 6,
         prod_img: '../assets/moralecat2.jpg',
         category: 'Morale Patches',
         prod_name: 'CT SCORCH CAT LOVE FOR SALE PATCH',
-        prod_price: 297
+        prod_price: 300
     },
     {
         id: 7,
         prod_img: '../assets/moralecat3.jpg',
         category: 'Morale Patches',
         prod_name: 'RANGER CAT BORN TO LOSE PATCH',
-        prod_price: 297
+        prod_price: 260
     },
     {
         id: 8,
         prod_img: '../assets/moralecat4.jpg',
         category: 'Morale Patches',
         prod_name: 'COLD HARBOR CAT BAD LUCK MORALE PATCH',
-        prod_price: 297
+        prod_price: 250
     },
 ]
 
@@ -64,6 +64,7 @@ export const Apparels = [
         prod_img: '../assets/apparel1.jpg',
         category: 'Shirts',
         prod_name: 'CT Scorch Silk Label',
+        prod_price: 899,
         prod_details: 'Cotton Polly Apparel MW190 Midweight Wide Hoddie',
     },
     {
@@ -71,6 +72,7 @@ export const Apparels = [
         prod_img: '../assets/apparel2.jpg',
         category: 'Shirts',
         prod_name: 'Cold Harbor Silk Label',
+        prod_price: 789,
         prod_details: 'Cotton T-Shirt Apparel 2000 Ringrun',
     },
     {
@@ -78,6 +80,7 @@ export const Apparels = [
         prod_img: '../assets/apparel3.jpg',
         category: 'Shirts',
         prod_name: 'Border Tactical Response',
+        prod_price: 899,
         prod_details: 'Combed Ringspun Cotton LA Apparel 20001 Tee',
     },
     {
@@ -85,12 +88,14 @@ export const Apparels = [
         prod_img: '../assets/apparel4.jpg',
         category: 'Shirts',
         prod_name: 'Cold Harbor Foreign Internal Defense Unit',
+        prod_price: 899,
         prod_details: 'Combed Ringspun Cotton LA Apparel 20001 Tee',
     },    {
         id: 5,
         prod_img: '../assets/apparel1.jpg',
         category: 'Shirts',
         prod_name: 'CT Scorch Silk Label',
+        prod_price: 899,
         prod_details: 'Cotton Polly Apparel MW190 Midweight Wide Hoddie',
     },
     {
@@ -98,6 +103,7 @@ export const Apparels = [
         prod_img: '../assets/apparel2.jpg',
         category: 'Shirts',
         prod_name: 'Cold Harbor Silk Label',
+        prod_price: 899,
         prod_details: 'Cotton T-Shirt Apparel 2000 Ringrun',
     },
     {
@@ -105,6 +111,7 @@ export const Apparels = [
         prod_img: '../assets/apparel3.jpg',
         category: 'Shirts',
         prod_name: 'Border Tactical Response',
+        prod_price: 899,
         prod_details: 'Combed Ringspun Cotton LA Apparel 20001 Tee',
     },
     {
@@ -112,6 +119,7 @@ export const Apparels = [
         prod_img: '../assets/apparel4.jpg',
         category: 'Shirts',
         prod_name: 'Cold Harbor Foreign Internal Defense Unit',
+        prod_price: 899,
         prod_details: 'Combed Ringspun Cotton LA Apparel 20001 Tee',
     },
 ]

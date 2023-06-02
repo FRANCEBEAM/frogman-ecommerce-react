@@ -1,9 +1,9 @@
 import React from 'react'
 import Products from './Products'
-import { PatchesMorale, Apparels } from '../components/ProductsReq'
+import { PatchesMorale, Apparels } from './ProductsReq'
 
 
-const ShopList = ({prod_img}) => {
+const ShopList = () => {
   return (
     <>
         <div className='w-full h-full bg-[#121212] relative'>
@@ -23,8 +23,8 @@ const ShopList = ({prod_img}) => {
                 </div>
 
                 <div className='p-4 relative w-full pt-[20px] lg:p-0'>
-                    <Products rowId='1' title="Morale Patches" fetchProduct={PatchesMorale.prod_img} />
-                    <Products rowId='2' title="Apparel & Shirts" fetchProduct={Apparels.prod_img} />
+                    <Products rowId='1' title="Morale Patches" product={PatchesMorale} />
+                    <Products rowId='2' title="Apparel & Shirts" product={Apparels} />
                 </div>
 
             </div>
