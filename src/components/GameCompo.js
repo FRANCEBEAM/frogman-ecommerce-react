@@ -14,10 +14,8 @@ const GameCompo = () => {
 
   return (
     <>
-        <div className='w-full h-min'>
-            <div>
-                <img className='absolute w-full h-full object-cover opacity-40 hidden sm:inline-block sm:h-[1200px] xl:h-[760px]' src="../assets/bgcomponent.jpg" alt="" />
-            </div>
+        <div className='w-full h-full py-10 relative'>
+            <img className='absolute w-full h-full inline-block object-cover opacity-40' src="../assets/bgcomponent.jpg" alt="" />
 
             <div className='p-4 text-white pt-[130px] relative lg:max-w-[1200px] lg:m-auto'>
                 <h1 className='text-3xl uppercase font-bold lg:text-5xl'>Game Components and Miniature</h1>

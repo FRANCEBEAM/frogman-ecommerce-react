@@ -9,8 +9,8 @@ const Patches = () => {
         {
         PatchesMorale.map((patch, id) => (
         <div className='hidden sm:inline-block sm:w-[230px] sm:p-2 sm:relative' key={id}>
-            <div className='w-full h-auto bg-black block'>
-                <img class="w-full h-auto" src={patch.prod_img} alt="" />
+            <div className='w-full h-full inline-block bg-black'>
+                <img class="w-full h-auto inline-block" src={patch.prod_img} alt="" />
                 <div className='p-2 whitespace-normal'>
                     <p className='text-md text-gray-400 font-bold uppercase'>{patch.category}</p>
                     <h1 className='text-lg text-white font-bold uppercase'>{patch.prod_name}</h1>

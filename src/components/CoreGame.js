@@ -3,7 +3,7 @@ import React from 'react'
 const CoreGame = () => {
   return (
     <>
-        <div className='w-full mt-[70px] bg-[#F7F7F7] relative'>
+        <div className='w-full h-full bg-[#F7F7F7] relative'>
             <div className='w-full h-full relative pt-10 p-3 lg:grid lg:grid-cols-2 lg:max-w-[1200px] lg:m-auto'>
                 <div>
                     <img className='w-full h-full hidden lg:flex lg:w-[430px]' src="../assets/compo5.jpg" alt="The Basics" />

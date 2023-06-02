@@ -10,12 +10,12 @@ const Prints = () => {
 
   return (
     <>
-      <img className='w-full h-[1210px] sm:h-[960px] absolute opacity-30 object-cover' src="../assets/bg-1.jpg" alt="Limited Edition"/>
 
-      <div className='w-full h-full relative pt-6 lg:m-auto z-10'>
-        <div className='w-full h-full m-auto min-h-screen p-4 self-center lg:text-left lg:max-w-[1200px] lg:m-auto lg:justify-start'>
+      <div className='w-full h-auto inline-block relative lg:m-auto'>
+      <img className='absolute w-full h-full inline-block object-cover opacity-30 bg-gradient-to-l from-[#000000]' src="../assets/bg-1.jpg" alt="Limited Edition"/>
+        <div className='w-full h-full m-auto relative p-4 py-20 self-center lg:text-left lg:max-w-[1200px] lg:m-auto lg:justify-start'>
 
-            <div className='text-white w-full uppercase lg:m-auto'>
+            <div className='text-white w-full uppercase lg:m-auto animate__animated animate__fadeIn'>
               <h1 className='text-4xl uppercase font-bold lg:text-5xl'>Limited Edition Print</h1>
               <p className='text-base lg:text-lg'>28 Units | Hand Numbered + Signed</p>
             </div>
