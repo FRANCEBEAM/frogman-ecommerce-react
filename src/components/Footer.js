@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='w-full h-full md:grid md:grid-cols-2 py-12'>
                     {/* LEFT CONTENT */}
                     <div className='w-full h-full'>
-                        <img className='w-[130px]' src="../assets/Frogmanlogo.svg" alt="frogman" />
+                        <img className='w-[130px]' src="assets/Frogmanlogo.svg" alt="frogman" />
                         <p className='text-white text-base pt-3 max-w-[360px]'>Our website combines the thrill of gaming with the passion for collecting and painting miniatures, creating an immersive experience for hobbyists and gamers alike.</p>
                     <div className='md:flex md:gap-6 lg:gap-20 py-10'>
 

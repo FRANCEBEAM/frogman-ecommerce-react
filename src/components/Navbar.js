@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='flex items-center justify-between w-full lg:max-w-[1200px] lg:m-auto lg:flex lg:items-center lg:justify-between'>
         <div className='cursor-pointer'>
             <Link to='/' onClick={closeMobileMenu}>
-                <img className='w-[127px]' src="./assets/Frogmanlogo.svg" alt="frogman-logo" />
+                <img className='w-[127px]' src="assets/Frogmanlogo.svg" alt="frogman-logo" />
             </Link>
         </div>
 

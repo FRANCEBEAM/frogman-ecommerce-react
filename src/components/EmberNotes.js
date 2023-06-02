@@ -6,7 +6,7 @@ const EmberNotes = () => {
     <>
         <div className='w-full h-full inline-block relative'>
             <div className="w-full h-full block m-auto py-20 lg:m-auto">
-                <img className="w-full h-full object-cover bg-gradient-to-l absolute from-[#000000] bg-[#000000]/100 opacity-20 -z-10" src="../assets/novel1-bg.jpg" alt="" />
+                <img className="w-full h-full object-cover bg-gradient-to-l absolute from-[#000000] bg-[#000000]/100 opacity-20 -z-10" src="assets/novel1-bg.jpg" alt="" />
 
                 <div className='p-4 w-full pt-[100px]'>
                     <div className='sm:justify-end sm:grid sm:justify-items-end sm:right-0 sm:text-right lg:max-w-[1200px] lg:m-auto'>
@@ -18,7 +18,7 @@ const EmberNotes = () => {
                         <TroopsCard 
                             key={1}
                             link="/"
-                            img="../assets/ember-bg.jpg"
+                            img="assets/ember-bg.jpg"
                             hypernotes="Hypernotes Ember"
                             subhead="Thrilling Tale of Tactical Resilience" 
                             para_text1="A highly trained operative driven by a relentless sense of duty and a desire to uncover the truth. As you delve deeper into the pages of this graphic novel, you'll witness heart-pounding action, complex character dynamics, and strategic brilliance at every turn. Navigate treacherous landscapes, encounter formidable adversaries, and uncover hidden conspiracies that threaten to plunge the world into darkness." 

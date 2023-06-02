@@ -72,7 +72,7 @@ const Platform = () => {
       </div>
       </div>
       
-        <img className='w-full h-[470px] sm:h-[320px] relative object-cover' src="../assets/bg-2.png" alt="Limited Edition"/>
+        <img className='w-full h-[470px] sm:h-[320px] relative object-cover' src="assets/bg-2.png" alt="Limited Edition"/>
 
     </>
   )

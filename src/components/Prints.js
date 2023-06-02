@@ -12,7 +12,7 @@ const Prints = () => {
     <>
 
       <div className='w-full h-auto inline-block relative lg:m-auto'>
-      <img className='absolute w-full h-full inline-block object-cover opacity-30 bg-gradient-to-l from-[#000000]' src="../assets/bg-1.jpg" alt="Limited Edition"/>
+      <img className='absolute w-full h-full inline-block object-cover opacity-30 bg-gradient-to-l from-[#000000]' src="assets/bg-1.jpg" alt="Limited Edition"/>
         <div className='w-full h-full m-auto relative p-4 py-20 self-center lg:text-left lg:max-w-[1200px] lg:m-auto lg:justify-start'>
 
             <div className='text-white w-full uppercase lg:m-auto animate__animated animate__fadeIn'>
