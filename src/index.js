@@ -82,7 +82,7 @@ const AppLayout = () => {
 // );
 
 ReactDOM.render(
-  <Router>
+  <Router basename='/frogman-ecommerce-react'>
     <AppLayout />
   </Router>,
   document.getElementById('root')
