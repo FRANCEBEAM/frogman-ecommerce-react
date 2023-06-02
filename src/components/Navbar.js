@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='w-full bg-[#000000]/80 fixed p-4 py-7  lg:py-4 z-[999]'>
     <div className='flex items-center justify-between w-full lg:max-w-[1200px] lg:m-auto lg:flex lg:items-center lg:justify-between'>
         <div className='cursor-pointer'>
-            <Link to='/home' onClick={closeMobileMenu}>
+            <Link to='/' onClick={closeMobileMenu}>
                 <img className='w-[127px]' src="./assets/Frogmanlogo.svg" alt="frogman-logo" />
             </Link>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
             <ul className={clickBars ? 'w-full h-[300px] absolute bg-[#000000] justify-center text-white font-medium uppercase left-0 top-[84px] text-center pt-10 transition-all duration-300 active': 'absolute top-[-600%] w-full left-0 text-center transition-all duration-300 uppercase lg:top-0 lg:flex right-0 lg:text-white lg:text-lg  gap-9 lg:relative lg:right-0'}>
                 <li className='font-medium tracking-wider py-3 hover:text-red hover:bg-yellow cursor-pointer lg:hover:text-yellow lg:hover:bg-transparent lg:text-base '>
-                    <Link to='/home' onClick={closeMobileMenu}>
+                    <Link to='/' onClick={closeMobileMenu}>
                         Home
                     </Link>
                 </li>
