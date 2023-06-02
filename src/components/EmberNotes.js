@@ -23,10 +23,10 @@ const EmberNotes = () => {
                             subhead="Thrilling Tale of Tactical Resilience" 
                             para_text1="A highly trained operative driven by a relentless sense of duty and a desire to uncover the truth. As you delve deeper into the pages of this graphic novel, you'll witness heart-pounding action, complex character dynamics, and strategic brilliance at every turn. Navigate treacherous landscapes, encounter formidable adversaries, and uncover hidden conspiracies that threaten to plunge the world into darkness." 
                             para_text2="With visually stunning artwork and intricate storytelling, Hypernotes Ember Soldier immerses you in a richly detailed universe. The masterful illustrations bring the characters to life, capturing their emotions, struggles, and triumphs with vivid clarity. Explore the captivating world of black powder warfare through the eyes of Ember Soldier as you witness the consequences of tactical decisions and the resilience of the human spirit."
-                            notes_img1="../assets/emberimg-1.jpg" 
-                            notes_img2="../assets/emberimg-2.jpg"
-                            notes_img3="../assets/emberimg-3.png"
-                            notes_img4="../assets/emberimg-4.png"
+                            notes_img1="assets/emberimg-1.jpg" 
+                            notes_img2="assets/emberimg-2.jpg"
+                            notes_img3="assets/emberimg-3.png"
+                            notes_img4="assets/emberimg-4.png"
                         />
                     </div>
                 </div>
