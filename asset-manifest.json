@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/frogman-ecommerce-react/static/css/main.ae8e90fb.css",
-    "main.js": "/frogman-ecommerce-react/static/js/main.44a46234.js",
+    "main.js": "/frogman-ecommerce-react/static/js/main.820c6bb8.js",
     "index.html": "/frogman-ecommerce-react/index.html",
     "main.ae8e90fb.css.map": "/frogman-ecommerce-react/static/css/main.ae8e90fb.css.map",
-    "main.44a46234.js.map": "/frogman-ecommerce-react/static/js/main.44a46234.js.map"
+    "main.820c6bb8.js.map": "/frogman-ecommerce-react/static/js/main.820c6bb8.js.map"
   },
   "entrypoints": [
     "static/css/main.ae8e90fb.css",
-    "static/js/main.44a46234.js"
+    "static/js/main.820c6bb8.js"
   ]
 }
