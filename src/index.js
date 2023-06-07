@@ -23,7 +23,7 @@ const AppLayout = () => {
     <>
       <Navbar showLinks={!isSignInPage && !isSignUpPage} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/graphicnovels" element={<GraphicNov />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/gameinfo" element={<GameInfo />} />
@@ -33,7 +33,6 @@ const AppLayout = () => {
     </>
   );
 };
-
 
 ReactDOM.render(
   <Router basename='/frogman-ecommerce-react'>
