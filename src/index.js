@@ -23,7 +23,7 @@ const AppLayout = () => {
     <>
       <Navbar showLinks={!isSignInPage && !isSignUpPage} />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/graphicnovels" element={<GraphicNov />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/gameinfo" element={<GameInfo />} />
