@@ -1,0 +1,43 @@
+import { Link } from "react-router-dom"
+
+const SignUp = () => {
+  return (
+    <>
+        <div className='w-full h-full'>
+            <div className="w-full h-full absolute inline-block bg-gradient-to-r from-[#000000]/90 z-[1]"></div>
+            <img className='absolute hidden sm:inline-block object-cover w-full h-full opacity-40' src="assets/bg-4.jpg" alt="" draggable='false' />
+            
+            <div className='w-full sm:w-[442px] h-auto sm:bg-[#000000]/80 p-10 m-auto justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-xl z-[2]'>
+                <form>
+                    <h1 className='text-white text-3xl font-bold text-center'>Create an Account</h1>
+                    <div className='my-14'>
+                        <div className='flex flex-col pt-2 gap-5'>
+                            <div className="">
+                                <input className='w-full bg-[#222222] text-base text-white p-3' type="text" placeholder='Enter your full name'/>
+                                    {/* <span className='text-red'>Full name shouldn’t contain spaces*</span> */}
+                            </div>
+                            <div>
+                                <input className='w-full bg-[#222222] text-base text-white p-3' type="email" placeholder='Enter your email address'/>
+                                    {/* <span className='text-red'>Full name shouldn’t contain spaces*</span> */}
+                            </div>
+                            <div>
+                                <input className='w-full bg-[#222222] text-base text-white p-3' type="password" placeholder='Enter your password'/>
+                                    {/* <span className='text-red'>Full name shouldn’t contain spaces*</span> */}
+                            </div>
+                            <div>
+                                <input className='w-full bg-[#222222] text-base text-white p-3' type="password" placeholder='Enter your  confirm password'/>
+                                    {/* <span className='text-red'>Full name shouldn’t contain spaces*</span> */}
+                            </div>
+                        </div>
+                    </div>
+
+                    <button className='my-7 p-3 flex w-full text-black text-2xl bg-yellow text-center font-bold justify-center rounded-md hover:bg-yellow/80'>Sign In</button>
+                    <p className='text-white text-center'>Already have an account? <Link className='font-bold' to='/signin'>Sign in now</Link></p>
+                </form>
+            </div>
+        </div>
+    </>
+  )
+}
+
+export default SignUp

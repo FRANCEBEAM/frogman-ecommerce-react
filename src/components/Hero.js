@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import 'animate.css'
+import { BsFillArrowUpRightCircleFill } from 'react-icons/bs'
 
 
 const Hero = () => {
@@ -17,8 +18,8 @@ const Hero = () => {
             
             <div className='flex py-2 font-bold items-center gap-5 text-lg m-auto w-full justify-center lg:justify-start'>
                 <div className='border-2 border-yellow p-1'>
-                    <button className='bg-yellow hover:bg-yellow/80 p-2 px-6 text-black uppercase'>
-                            Play Free
+                    <button className='bg-yellow hover:bg-yellow/80 p-3 px-6 text-black uppercase flex justify-between items-center gap-3'>
+                        Show now                     
                     </button>
                 </div>
                 <div className='text-white underline uppercase'>
