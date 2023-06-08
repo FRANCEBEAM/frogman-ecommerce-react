@@ -31,7 +31,7 @@ const SignUp = () => {
                         </div>
                     </div>
 
-                    <button className='my-7 p-3 flex w-full text-black text-2xl bg-yellow text-center font-bold justify-center rounded-md hover:bg-yellow/80'>Sign In</button>
+                    <button className='my-7 p-3 flex w-full text-black text-2xl bg-yellow text-center font-bold justify-center rounded-md hover:bg-yellow/80'>Sign Up</button>
                     <p className='text-white text-center'>Already have an account? <Link className='font-bold' to='/signin'>Sign in now</Link></p>
                 </form>
             </div>
